@@ -16,3 +16,5 @@ And now, you can configure the RSS URL and the regular expressions you want in K
 
 - Filter content that only includes some keywords: `(Hello|World)`
 - Filter out content that contains a specific keyword: `^(?!.*Keyword).*`
+
+In this way, we can filter through `https://worker-rss-filter.example.com/-/https://real-rss-url.example.com`.
